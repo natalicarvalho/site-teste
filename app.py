@@ -17,8 +17,7 @@ def sobre():
 
 @app.route("/contato")
 def contato():
+  <font color="red">Contato</font>
   return menu + "aqui vai o conteúdo da página Contato"
 
-@app.route("/musica")
-def música():
-  return menu + "faz assim, te dou meu telefone, você me diz seu nome e a gente então se vê"
+
