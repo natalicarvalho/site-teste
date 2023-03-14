@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 menu = """
-<a href="/">Página inicial</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
+<a href="/">Página inicial</a> | <a href="/musica">Música</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
 <br>
 """
 
@@ -18,3 +18,7 @@ def sobre():
 @app.route("/contato")
 def contato():
   return menu + "aqui vai o conteúdo da página Contato"
+
+@app.route("/musica")
+def música():
+  return menu + "faz assim, te dou meu telefone, você me diz seu nome e a gente então se vê"
