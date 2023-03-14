@@ -6,6 +6,7 @@ menu = """
 <a href="/">Página inicial</a> | <a href="/musica">Música</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
 <br>
 """
+<font color="purple">Contato</font> 
 
 @app.route("/")
 def hello_world():
@@ -18,6 +19,6 @@ def sobre():
 @app.route("/contato")
 def contato():
   return menu + "aqui vai o conteúdo da página Contato"
-  <font color="red">Contato</font>
+
 
 
