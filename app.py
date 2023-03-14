@@ -9,12 +9,12 @@ menu = """
 
 @app.route("/")
 def hello_world():
-  return "Olá, mundo! Esse é meu site. (Natali Carvalho)"
+  return menu + "Olá, mundo! Esse é meu site. (Natali Carvalho)"
 
 @app.route("/sobre")
 def sobre():
-  return "aqui vai o conteúdo da página Sobre"
+  return menu + "aqui vai o conteúdo da página Sobre"
 
 @app.route("/contato")
 def contato():
-  return "aqui vai o conteúdo da página Contato"
+  return menu + "aqui vai o conteúdo da página Contato"
