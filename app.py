@@ -6,7 +6,7 @@ from flask import Flask, request
 from oauth2client.service_account import ServiceAccountCredentials
 from tchan import ChannelScraper
 
-from scraper import ultimas_promocoes
+from raspador import ultimas_promocoes
 
 
 TELEGRAM_API_KEY = os.environ["TELEGRAM_API_KEY"]
